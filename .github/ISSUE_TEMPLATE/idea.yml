@@ -1,0 +1,15 @@
+name: Idea
+description: Something you'd love VTube Pro to do.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      placeholder: It would be great if…
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help your stream?

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Getting started & guides
+    url: https://vtubepro.com/docs
+    about: Most questions are answered here.
+  - name: Stuck? Troubleshooting
+    url: https://vtubepro.com/docs/troubleshooting
+    about: The 17 most common problems and how to fix them.

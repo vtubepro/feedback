@@ -1,0 +1,59 @@
+name: Bug report
+description: Something didn't work the way it should.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test the VTube Pro open beta!
+        **Don't paste API keys, passwords, invite links or personal info.**
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Tell us in plain words.
+      placeholder: I clicked Open Helper and…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See …
+  - type: dropdown
+    id: os
+    attributes:
+      label: Your computer
+      options: [Windows, Mac, Linux, Steam Deck, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Your browser
+      options: [Chrome, Edge, Firefox, Safari, Other]
+  - type: input
+    id: helper
+    attributes:
+      label: Helper version (if you use the helper)
+      placeholder: 1.0.0-beta.1
+  - type: textarea
+    id: helpme
+    attributes:
+      label: "Help me" result
+      description: In the studio, open Help → Help me → Check my setup, then copy the result here.
+      render: text
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots or a short video
+      description: Drag them in. Please hide anything personal.
